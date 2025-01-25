@@ -1,0 +1,32 @@
+@use '../../styles/_vars.css' as vars;
+.login_logo{
+    object-fit:contain;
+}
+.login_container{
+    background-color: antiquewhite;
+    padding: 1rem;
+}
+.login_form{
+    margin-top: 1rem;
+    width: 100%;
+}
+.login_stack{
+    width: 100%;
+}
+.login_title{
+    color: var(--darkBlue);
+    font-weight: 600 !important;
+    font-size: var(--lg) !important;
+    font-family: 'Poppins','Quicksand', sans-serif !important;
+}
+.login_text{
+    color: var(--darkBlue);
+    font-family: 'Poppins','Quicksand', sans-serif !important;
+}
+.login_version{
+    //width: 100%;
+    margin-top: .5rem !important;
+    display: flex;
+    justify-content: center;
+
+}

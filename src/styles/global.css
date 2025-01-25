@@ -1,0 +1,14 @@
+
+body {
+  margin: 0;
+  font-family: 'Poppins','Quicksand', sans-serif !important;
+  /*font-size: 15px;
+  background-color:var(--white) ;*/
+}
+.NotFound {
+  margin: 200px
+}
+
+.InputBasic{
+  width: 100%;
+}
