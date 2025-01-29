@@ -2,6 +2,7 @@
 body {
   margin: 0;
   font-family: 'Poppins','Quicksand', sans-serif !important;
+  color: var(--darkBlue);
   /*font-size: 15px;
   background-color:var(--white) ;*/
 }
@@ -12,3 +13,20 @@ body {
 .InputBasic{
   width: 100%;
 }
+
+.ButtonBasic{
+  width: 100%;
+  height: 3rem; 
+  background-color: var(--darkBlue) !important;
+  text-transform: none !important;
+}
+
+
+
+/*
+xs, extra-small: 0px
+sm, small: 600px
+md, medium: 900px
+lg, large: 1200px
+xl, extra-large: 1536px
+*/

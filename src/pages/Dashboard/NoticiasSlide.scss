@@ -1,0 +1,35 @@
+.MainSlide{
+    width:90%;
+    margin: 0 auto;
+    padding-bottom: 40px; 
+    padding: 0 10px;
+}
+.slick-next {
+    right: 18px;
+    z-index: 1;
+}
+.slick-prev {
+    left: 11px;
+    z-index: 1;
+}
+
+.MainSlide .slick-prev:before, .MainSlide .slick-next:before  {
+    color: var(--logo-green) !important;
+    font-size: 30px;   
+    z-index: 1;
+}
+
+.slick-slide-image-a {
+    margin: auto;
+  max-width: 95%;
+  border-radius: 8px;
+  display: unset !important; //Esto es porque se veia alineada a la derecha
+}
+
+@media (min-width: 600px) {
+  .slick-slide-image-a {
+    border-radius: 0;
+    max-height: 400px;
+    max-width: 90%;
+  }
+}

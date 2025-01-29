@@ -1,0 +1,28 @@
+.dashboard_toolbar {
+    background-color: var(--white);
+    color:var(--darkBlue);
+}
+.dashboard_menu {
+    display:none !important;
+}
+.menu_list_container {
+    width: 280px;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    color:var(--darkBlue);
+}
+.social_container{
+    display: flex;
+    justify-content: flex-start;
+    gap:1rem;
+    margin-left: 1rem;
+}
+@media (max-width: 899px) {
+    .dashboard_menu {
+        display: block !important;
+    }
+}
